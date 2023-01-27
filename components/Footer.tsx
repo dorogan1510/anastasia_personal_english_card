@@ -83,7 +83,7 @@ const Footer = () => {
                     >
                         <InstagramIcon color='secondary' />
                         <Link
-                            href={'https://t.me/danfrolov94'}
+                            href={'https://www.instagram.com/zazafox/'}
                             className={style.link}
                             target='_blank'
                         >
@@ -102,7 +102,7 @@ const Footer = () => {
                         >
                             <TelegramIcon color='secondary' />
                             <Link
-                                href={'https://t.me/danfrolov94'}
+                                href={'https://t.me/+79256825060'}
                                 className={style.link}
                                 target='_blank'
                             >
@@ -118,7 +118,7 @@ const Footer = () => {
                         >
                             <TelegramIcon color='secondary' />
                             <Link
-                                href={'https://t.me/danfrolov94'}
+                                href={'https://t.me/+79060725588'}
                                 className={style.link}
                                 target='_blank'
                             >
@@ -140,7 +140,9 @@ const Footer = () => {
                         >
                             <WhatsAppIcon color='secondary' />
                             <Link
-                                href={'https://t.me/danfrolov94'}
+                                href={
+                                    'https://api.whatsapp.com/send?phone=79256825060&text='
+                                }
                                 className={style.link}
                                 target='_blank'
                             >
@@ -156,7 +158,9 @@ const Footer = () => {
                         >
                             <WhatsAppIcon color='secondary' />
                             <Link
-                                href={'https://t.me/danfrolov94'}
+                                href={
+                                    'https://api.whatsapp.com/send?phone=79060725588&text='
+                                }
                                 className={style.link}
                                 target='_blank'
                             >
