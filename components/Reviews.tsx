@@ -77,10 +77,10 @@ const style = {
 }
 
 const Reviews = () => {
-    const [open, setOpen] = useState<Boolean>(false)
+    const [open, setOpen] = useState<boolean>(false)
     const handleClose = () => setOpen(false)
 
-    const [modalImg, setModalImg] = useState<StaticImageData | null>(null)
+    const [modalImg, setModalImg] = useState<any>(null)
 
     return (
         <Container id='id8' maxWidth='xl' sx={{ mb: '3rem' }}>
