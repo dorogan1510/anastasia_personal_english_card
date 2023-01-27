@@ -41,37 +41,58 @@ const WhoAmI = () => {
                 justifyContent={'center'}
             >
                 <Stack flexDirection='column' gap={{ xs: '1rem', md: '2rem' }}>
-                    <Stack gap='0.5rem' alignItems={'flex-start'}>
+                    <Stack
+                        gap='0.5rem'
+                        alignItems={{ xs: 'flex-start', md: 'center' }}
+                    >
                         <MonitorIcon
                             color='primary'
                             sx={{ width: 40, height: 40 }}
                         />
-                        <Typography variant='body1' textAlign={'center'}>
+                        <Typography
+                            variant='body1'
+                            textAlign={{ xs: 'left', md: 'center' }}
+                        >
                             В онлайн-школе
                         </Typography>
                     </Stack>
-                    <Stack gap='0.5rem' alignItems={'flex-start'}>
+                    <Stack
+                        gap='0.5rem'
+                        alignItems={{ xs: 'flex-start', md: 'center' }}
+                    >
                         <BusinessIcon
                             color='primary'
                             sx={{ width: 40, height: 40 }}
                         />
-                        <Typography variant='body1' textAlign={'center'}>
+                        <Typography
+                            variant='body1'
+                            textAlign={{ xs: 'left', md: 'center' }}
+                        >
                             В частной гимназии в подмосковье
                         </Typography>
                     </Stack>
                 </Stack>
                 <Stack flexDirection='column' gap={{ xs: '1rem', md: '2rem' }}>
-                    <Stack gap='0.5rem' alignItems={'flex-start'}>
+                    <Stack
+                        gap='0.5rem'
+                        alignItems={{ xs: 'flex-start', md: 'center' }}
+                    >
                         <SchoolIcon
                             color='primary'
                             sx={{ width: 40, height: 40 }}
                         />
-                        <Typography variant='body1' textAlign={'center'}>
+                        <Typography
+                            variant='body1'
+                            textAlign={{ xs: 'left', md: 'center' }}
+                        >
                             А также подготовила 10 учеников к успешной сдаче ОГЭ
                             и ЕГЭ
                         </Typography>
                     </Stack>
-                    <Stack gap='0.5rem' alignItems={'flex-start'}>
+                    <Stack
+                        gap='0.5rem'
+                        alignItems={{ xs: 'flex-start', md: 'center' }}
+                    >
                         <Image
                             src={england}
                             alt={'england'}
@@ -79,26 +100,41 @@ const WhoAmI = () => {
                             width={40}
                         />
 
-                        <Typography variant='body1' textAlign={'center'}>
+                        <Typography
+                            variant='body1'
+                            textAlign={{ xs: 'left', md: 'center' }}
+                        >
                             С билингвом из Англии
                         </Typography>
                     </Stack>
                 </Stack>
                 <Stack flexDirection='column' gap={{ xs: '1rem', md: '2rem' }}>
-                    <Stack gap='0.5rem' alignItems={'flex-start'}>
+                    <Stack
+                        gap='0.5rem'
+                        alignItems={{ xs: 'flex-start', md: 'center' }}
+                    >
                         <Image src={usa} alt={'usa'} height={40} width={40} />
-                        <Typography variant='body1' textAlign={'center'}>
+                        <Typography
+                            variant='body1'
+                            textAlign={{ xs: 'left', md: 'center' }}
+                        >
                             С билингвом из Америки
                         </Typography>
                     </Stack>
-                    <Stack gap='0.5rem' alignItems={'flex-start'}>
+                    <Stack
+                        gap='0.5rem'
+                        alignItems={{ xs: 'flex-start', md: 'center' }}
+                    >
                         <Image
                             src={china}
                             alt={'china'}
                             height={40}
                             width={40}
                         />
-                        <Typography variant='body1' textAlign={'center'}>
+                        <Typography
+                            variant='body1'
+                            textAlign={{ xs: 'left', md: 'center' }}
+                        >
                             С ученицей из Китая
                         </Typography>
                     </Stack>
