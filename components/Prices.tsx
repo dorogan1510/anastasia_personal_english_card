@@ -38,7 +38,12 @@ const Prices = () => {
                             <Typography variant='h4'>₽1700</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size='small' variant='contained'>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
                                 Записаться
                             </Button>
                         </CardActions>
@@ -56,7 +61,12 @@ const Prices = () => {
                             <Typography variant='h4'>₽2000</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size='small' variant='contained'>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
                                 Записаться
                             </Button>
                         </CardActions>
@@ -74,7 +84,12 @@ const Prices = () => {
                             <Typography variant='h4'>₽2800</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size='small' variant='contained'>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
                                 Записаться
                             </Button>
                         </CardActions>
@@ -100,7 +115,12 @@ const Prices = () => {
                             <Typography variant='h4'>₽1500</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size='small' variant='contained'>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
                                 Записаться
                             </Button>
                         </CardActions>
@@ -118,7 +138,12 @@ const Prices = () => {
                             <Typography variant='h4'>₽1100</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size='small' variant='contained'>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
                                 Записаться
                             </Button>
                         </CardActions>
@@ -162,7 +187,12 @@ const Prices = () => {
                             <Typography variant='h4'>₽1500</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size='small' variant='contained'>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
                                 Записаться
                             </Button>
                         </CardActions>
@@ -178,7 +208,12 @@ const Prices = () => {
                             <Typography variant='h4'>₽2300</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size='small' variant='contained'>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
                                 Записаться
                             </Button>
                         </CardActions>
@@ -221,7 +256,12 @@ const Prices = () => {
                             <Typography variant='h4'>₽2000</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size='small' variant='contained'>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
                                 Записаться
                             </Button>
                         </CardActions>
