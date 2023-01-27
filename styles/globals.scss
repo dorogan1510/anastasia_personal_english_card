@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: #efefef;
+}
+
+.page {
+    margin: 0 auto;
+    padding: 0 3rem;
+
+    max-width: 1920px;
+}
+
+header {
+    margin-bottom: 6rem;
+}
+
+main {
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 1024px) {
+    .page {
+        padding: 0;
+    }
+}

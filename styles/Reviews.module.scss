@@ -1,0 +1,6 @@
+.image {
+    transition: 0.2s;
+    &:hover {
+        scale: 110%;
+    }
+}

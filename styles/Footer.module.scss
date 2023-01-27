@@ -1,0 +1,15 @@
+.icon {
+    transition: 0.2s;
+    &:hover {
+        color: #c8c8c8;
+    }
+}
+
+.link {
+    transition: 0.2s;
+    &:hover {
+        color: #c8c8c8;
+    }
+    text-decoration: none;
+    color: white;
+}
