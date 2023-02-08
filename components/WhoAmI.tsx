@@ -41,12 +41,9 @@ const WhoAmI = () => {
                 gap={{ xs: '0.5rem', md: '1rem' }}
                 justifyContent={'center'}
             >
-                <Stack
-                    className='animate-left'
-                    flexDirection='column'
-                    gap={{ xs: '1rem', md: '2rem' }}
-                >
+                <Stack flexDirection='column' gap={{ xs: '1rem', md: '2rem' }}>
                     <Stack
+                        className='animate-left'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -62,6 +59,7 @@ const WhoAmI = () => {
                         </Typography>
                     </Stack>
                     <Stack
+                        className='animate-right'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -77,12 +75,9 @@ const WhoAmI = () => {
                         </Typography>
                     </Stack>
                 </Stack>
-                <Stack
-                    className='animate-center'
-                    flexDirection='column'
-                    gap={{ xs: '1rem', md: '2rem' }}
-                >
+                <Stack flexDirection='column' gap={{ xs: '1rem', md: '2rem' }}>
                     <Stack
+                        className='animate-left'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -99,6 +94,7 @@ const WhoAmI = () => {
                         </Typography>
                     </Stack>
                     <Stack
+                        className='animate-right'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -118,11 +114,12 @@ const WhoAmI = () => {
                     </Stack>
                 </Stack>
                 <Stack
-                    className='animate-right'
+                    className='animate-left'
                     flexDirection='column'
                     gap={{ xs: '1rem', md: '2rem' }}
                 >
                     <Stack
+                        className='animate-left'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -135,6 +132,7 @@ const WhoAmI = () => {
                         </Typography>
                     </Stack>
                     <Stack
+                        className='animate-right'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >

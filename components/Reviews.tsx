@@ -71,8 +71,6 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: { xs: 220, md: 330 },
-    bgcolor: 'background.paper',
-    boxShadow: 24,
     borderRadius: '20px',
 }
 
@@ -118,6 +116,7 @@ const Reviews = () => {
                                     height: 'auto',
                                     borderRadius: '20px',
                                 }}
+                                priority
                             />
                         </Button>
                     </Grid2>

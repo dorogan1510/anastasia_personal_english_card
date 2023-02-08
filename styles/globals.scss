@@ -86,6 +86,17 @@ main {
     }
     animation: 1s ease slideInFromRight;
 }
+.animate-hero-center {
+    @keyframes slideInFromCenter {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    animation: 1s ease slideInFromCenter;
+}
 .animate-hero-links {
     @keyframes slideInFromDown {
         0% {

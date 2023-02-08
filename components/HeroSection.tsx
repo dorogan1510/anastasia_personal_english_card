@@ -20,7 +20,7 @@ const HeroSection = () => {
                         <Typography
                             variant='h1'
                             sx={{ mb: '1rem' }}
-                            className='animate-hero-left'
+                            className='animate-hero-center'
                         >
                             Всем привет! Я Анастасия Танн — дипломированный
                             преподаватель английского и немецкого языков
@@ -30,7 +30,7 @@ const HeroSection = () => {
                         <Typography
                             variant='subtitle1'
                             sx={{ mb: '1rem' }}
-                            className='animate-hero-left'
+                            className='animate-hero-center'
                         >
                             Со мной ты научишься общаться на английском и
                             немецком и сложные грамматические конструкции,
@@ -43,12 +43,12 @@ const HeroSection = () => {
                         variant='contained'
                         sx={{ textAlign: 'center' }}
                         target='_blank'
-                        className='animate-hero-left'
+                        className='animate-hero-center'
                     >
                         Записаться на бесплатный пробный урок
                     </Button>
                 </Box>
-                <Box className='animate-hero-right'>
+                <Box className='animate-hero-center'>
                     <Image
                         src={image1}
                         alt={'image1'}
