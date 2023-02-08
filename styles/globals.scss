@@ -3,10 +3,11 @@ html {
 }
 
 .body {
-    background-color: #efefef;
+    background-color: #f5f4f2;
 }
 
 .page {
+    overflow: hidden;
     margin: 0 auto;
     padding: 0 3rem;
 
@@ -25,4 +26,77 @@ main {
     .page {
         padding: 0;
     }
+}
+
+.animate-left {
+    position: relative;
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: 1s all ease;
+
+    &.__active {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.animate-right {
+    position: relative;
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 1s all ease;
+
+    &.__active {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-center {
+    position: relative;
+    opacity: 0;
+    transition: 1s all ease;
+
+    &.__active {
+        opacity: 1;
+    }
+}
+.animate-hero-left {
+    @keyframes slideInFromLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    animation: 1s ease slideInFromLeft;
+}
+.animate-hero-right {
+    @keyframes slideInFromRight {
+        0% {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    animation: 1s ease slideInFromRight;
+}
+.animate-hero-links {
+    @keyframes slideInFromDown {
+        0% {
+            opacity: 0;
+            transform: translateY(100px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    animation: 1s ease slideInFromDown;
 }

@@ -15,6 +15,7 @@ const Prices = () => {
             <Typography
                 variant='h4'
                 sx={{ mb: '1rem', textAlign: { xs: 'left', md: 'center' } }}
+                className='animate-center'
             >
                 Сколько стоят занятия со мной?
             </Typography>
@@ -26,7 +27,7 @@ const Prices = () => {
                 justifyContent='center'
                 sx={{ mb: '1rem' }}
             >
-                <Grid2>
+                <Grid2 className='animate-left'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>
@@ -49,7 +50,7 @@ const Prices = () => {
                         </CardActions>
                     </Card>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-right'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>
@@ -72,7 +73,7 @@ const Prices = () => {
                         </CardActions>
                     </Card>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-left'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>
@@ -103,7 +104,7 @@ const Prices = () => {
                 justifyContent='center'
                 sx={{ mb: '3rem' }}
             >
-                <Grid2>
+                <Grid2 className='animate-left'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>
@@ -126,7 +127,7 @@ const Prices = () => {
                         </CardActions>
                     </Card>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-right'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>
@@ -149,22 +150,73 @@ const Prices = () => {
                         </CardActions>
                     </Card>
                 </Grid2>
+                <Grid2 className='animate-left'>
+                    <Card sx={{ minWidth: 275 }}>
+                        <CardContent>
+                            <Typography variant='h5'>
+                                Инд. занятие по немецкому языку
+                            </Typography>
+                            <Typography sx={{ mb: 1.5 }} color='text.secondary'>
+                                45 минут
+                            </Typography>
+                            <Typography variant='h4'>₽1300</Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
+                                Записаться
+                            </Button>
+                        </CardActions>
+                    </Card>
+                </Grid2>
+                <Grid2 className='animate-right'>
+                    <Card sx={{ minWidth: 275 }}>
+                        <CardContent>
+                            <Typography variant='h5'>
+                                Инд. занятие по немецкому языку
+                            </Typography>
+                            <Typography sx={{ mb: 1.5 }} color='text.secondary'>
+                                60 минут
+                            </Typography>
+                            <Typography variant='h4'>₽1500</Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
+                                Записаться
+                            </Button>
+                        </CardActions>
+                    </Card>
+                </Grid2>
             </Grid2>
 
             <Typography
                 variant='h4'
                 gutterBottom
                 sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
+                className='animate-center'
             >
                 Консультации по определенному запросу
             </Typography>
-            <Typography variant='body1' gutterBottom>
+            <Typography variant='body1' gutterBottom className='animate-center'>
                 Свяжитесь со мной в whatsapp или insta и опишите свою проблему.
                 К нашей консультации я приготовлю презентацию с материалами и
                 нужной вам информацией, после консультации вы также получите
                 запись нашего звонка:
             </Typography>
-            <Typography variant='body1' sx={{ mb: '2rem' }}>
+            <Typography
+                variant='body1'
+                sx={{ mb: '2rem' }}
+                className='animate-center'
+            >
                 Свяжитесь со мной в whatsapp или instagram и опишите свою
                 проблему. К нашей консультации я приготовлю презентацию с
                 материалами и нужной вам информацией, после консультации вы
@@ -177,7 +229,7 @@ const Prices = () => {
                 justifyContent='center'
                 sx={{ mb: '3rem' }}
             >
-                <Grid2>
+                <Grid2 className='animate-left'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>Консультация</Typography>
@@ -198,7 +250,7 @@ const Prices = () => {
                         </CardActions>
                     </Card>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-right'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>Консультация</Typography>
@@ -225,10 +277,16 @@ const Prices = () => {
                 variant='h4'
                 gutterBottom
                 sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
+                className='animate-center'
             >
                 Консультации для преподавателей
             </Typography>
-            <Typography variant='body1' gutterBottom sx={{ mb: '2rem' }}>
+            <Typography
+                variant='body1'
+                gutterBottom
+                sx={{ mb: '2rem' }}
+                className='animate-left'
+            >
                 Если Вы-начинающий преподаватель или делаете свои первые шаги в
                 преподавании ОНЛАЙН и хотите узнать о полезных сайтах и
                 ресурсах,усовершенствовать свои навыки работы в онлайн или же
@@ -244,7 +302,7 @@ const Prices = () => {
                 justifyContent='center'
                 sx={{ mb: '3rem' }}
             >
-                <Grid2>
+                <Grid2 className='animate-right'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>

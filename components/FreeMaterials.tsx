@@ -73,6 +73,7 @@ const FreeMaterials = () => {
                     textAlign: { xs: 'flex-start', md: 'center' },
                     mb: '2rem',
                 }}
+                className='animate-center'
             >
                 Бесплатные материалы
             </Typography>
@@ -84,7 +85,7 @@ const FreeMaterials = () => {
                 sx={{ mb: '3rem' }}
             >
                 {imgNames.map(data => (
-                    <Grid2 key={data.id}>
+                    <Grid2 key={data.id} className='animate-left'>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia component={'div'}>
                                 <Image
@@ -120,6 +121,7 @@ const FreeMaterials = () => {
                 variant='h4'
                 sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
                 gutterBottom
+                className='animate-center'
             >
                 Бесплатные каналы по изучению английского
             </Typography>
@@ -129,6 +131,7 @@ const FreeMaterials = () => {
                     textAlign: { xs: 'flex-start', md: 'center' },
                     mb: '2rem',
                 }}
+                className='animate-left'
             >
                 Здесь я рассказываю про лингвистические интересности,делюсь
                 полезными ссылками для изучения языка и рассказываю про сложные
@@ -141,7 +144,7 @@ const FreeMaterials = () => {
                 justifyContent='center'
             >
                 {freeChannels.map(data => (
-                    <Grid2 key={data.id}>
+                    <Grid2 key={data.id} className='animate-right'>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia component={'div'}>
                                 <Image

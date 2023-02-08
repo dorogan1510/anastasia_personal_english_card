@@ -2,12 +2,19 @@ import { Typography } from '@mui/material'
 import Container from '@mui/material/Container'
 import Paper from '@mui/material/Paper'
 import Grid2 from '@mui/material/Unstable_Grid2'
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
+import { motion } from 'framer-motion'
+import '../styles/globals.scss'
 
 const WhatITeach = () => {
     return (
         <Container id='id5' maxWidth='xl' sx={{ mb: '3rem' }}>
-            <Typography variant='h4' textAlign={'center'} gutterBottom>
+            <Typography
+                variant='h4'
+                textAlign={'center'}
+                gutterBottom
+                className='animate-center'
+            >
                 Что я преподаю?
             </Typography>
             <Grid2
@@ -16,7 +23,7 @@ const WhatITeach = () => {
                 columns={{ xs: 1, md: 4 }}
                 justifyContent='center'
             >
-                <Grid2>
+                <Grid2 className='animate-left'>
                     <Paper
                         elevation={6}
                         sx={{ padding: { xs: '1rem', md: '3rem' } }}
@@ -29,7 +36,7 @@ const WhatITeach = () => {
                         </Typography>
                     </Paper>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-right'>
                     <Paper
                         elevation={6}
                         sx={{ padding: { xs: '1rem', md: '3rem' } }}
@@ -42,7 +49,7 @@ const WhatITeach = () => {
                         </Typography>
                     </Paper>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-left'>
                     <Paper
                         elevation={6}
                         sx={{ padding: { xs: '1rem', md: '3rem' } }}
@@ -55,7 +62,7 @@ const WhatITeach = () => {
                         </Typography>
                     </Paper>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-right'>
                     <Paper
                         elevation={6}
                         sx={{ padding: { xs: '1rem', md: '3rem' } }}
@@ -69,7 +76,7 @@ const WhatITeach = () => {
                         </Typography>
                     </Paper>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-left'>
                     <Paper
                         elevation={6}
                         sx={{ padding: { xs: '1rem', md: '3rem' } }}
@@ -79,7 +86,7 @@ const WhatITeach = () => {
                         </Typography>
                     </Paper>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-right'>
                     <Paper
                         elevation={6}
                         sx={{ padding: { xs: '1rem', md: '3rem' } }}
@@ -89,7 +96,7 @@ const WhatITeach = () => {
                         </Typography>
                     </Paper>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-left'>
                     <Paper
                         elevation={6}
                         sx={{ padding: { xs: '1rem', md: '3rem' } }}
@@ -99,7 +106,7 @@ const WhatITeach = () => {
                         </Typography>
                     </Paper>
                 </Grid2>
-                <Grid2>
+                <Grid2 className='animate-right'>
                     <Paper
                         elevation={6}
                         sx={{ padding: { xs: '1rem', md: '3rem' } }}

@@ -79,7 +79,10 @@ const Header = () => {
                     >
                         <Container maxWidth='xl'>
                             <Toolbar disableGutters>
-                                <Box sx={{ flexGrow: 1 }}>
+                                <Box
+                                    sx={{ flexGrow: 1 }}
+                                    className='animate-hero-left'
+                                >
                                     <IconButton href='#id1' sx={{ p: 0 }}>
                                         <Image
                                             src={logo}
@@ -106,9 +109,11 @@ const Header = () => {
                                             sx={{
                                                 my: 2,
                                                 color: 'white',
-                                                fontSize: '14px',
+                                                fontSize: '16px',
                                                 display: 'block',
+                                                textTransform: 'none',
                                             }}
+                                            className='animate-hero-links'
                                         >
                                             {page.link}
                                         </Button>
@@ -119,6 +124,7 @@ const Header = () => {
                                         flexGrow: 0,
                                         display: { xs: 'flex', md: 'none' },
                                     }}
+                                    className='animate-hero-right'
                                 >
                                     <IconButton
                                         size='large'
@@ -157,7 +163,12 @@ const Header = () => {
                                                 onClick={handleCloseNavMenu}
                                                 color='white'
                                             >
-                                                <Button href={page.id}>
+                                                <Button
+                                                    href={page.id}
+                                                    sx={{
+                                                        textTransform: 'none',
+                                                    }}
+                                                >
                                                     {page.link}
                                                 </Button>
                                             </MenuItem>

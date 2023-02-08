@@ -18,7 +18,7 @@ const MyStudents = () => {
                 gap='1rem'
                 flexDirection={{ xs: 'column', md: 'row' }}
             >
-                <Box sx={{ maxWidth: '800px' }}>
+                <Box sx={{ maxWidth: '800px' }} className='animate-left'>
                     <Typography variant='h4' gutterBottom>
                         Кто мои студенты?
                     </Typography>
@@ -70,7 +70,7 @@ const MyStudents = () => {
                         </Grid2>
                     </Grid2>
                 </Box>
-                <Box>
+                <Box className='animate-right'>
                     <Image
                         src={img}
                         alt={'img'}

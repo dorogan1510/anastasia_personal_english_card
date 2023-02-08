@@ -101,6 +101,7 @@ const Reviews = () => {
                     <Grid2
                         key={data.id}
                         sx={{ maxWidth: { xs: '150px', md: '250px' } }}
+                        className='animate-left'
                     >
                         <Button
                             onClick={() => {

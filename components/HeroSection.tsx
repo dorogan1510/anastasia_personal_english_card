@@ -17,13 +17,21 @@ const HeroSection = () => {
             >
                 <Box maxWidth='lg'>
                     <Balancer>
-                        <Typography variant='h1' sx={{ mb: '1rem' }}>
-                            Всем привет! Я Анастасия Залыгина — дипломированный
+                        <Typography
+                            variant='h1'
+                            sx={{ mb: '1rem' }}
+                            className='animate-hero-left'
+                        >
+                            Всем привет! Я Анастасия Танн — дипломированный
                             преподаватель английского и немецкого языков
                         </Typography>
                     </Balancer>
                     <Balancer>
-                        <Typography variant='subtitle1' sx={{ mb: '1rem' }}>
+                        <Typography
+                            variant='subtitle1'
+                            sx={{ mb: '1rem' }}
+                            className='animate-hero-left'
+                        >
                             Со мной ты научишься общаться на английском и
                             немецком и сложные грамматические конструкции,
                             лексические обороты станут понятными и легкими в
@@ -35,16 +43,19 @@ const HeroSection = () => {
                         variant='contained'
                         sx={{ textAlign: 'center' }}
                         target='_blank'
+                        className='animate-hero-left'
                     >
                         Записаться на бесплатный пробный урок
                     </Button>
                 </Box>
-                <Image
-                    src={image1}
-                    alt={'image1'}
-                    className={styles.image}
-                    priority
-                />
+                <Box className='animate-hero-right'>
+                    <Image
+                        src={image1}
+                        alt={'image1'}
+                        className={styles.image}
+                        priority
+                    />
+                </Box>
             </Stack>
         </Container>
     )

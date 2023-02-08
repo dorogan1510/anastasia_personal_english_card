@@ -35,7 +35,7 @@ const EducationDevelopment = () => {
                 columns={{ xs: 6, md: 12 }}
                 sx={{ mb: '3rem' }}
             >
-                <Grid2 xs={6} md={6}>
+                <Grid2 xs={6} md={6} className='animate-left'>
                     <Typography variant='h4' gutterBottom>
                         Какое у меня образование?
                     </Typography>
@@ -61,7 +61,7 @@ const EducationDevelopment = () => {
                     </Grid2>
                 </Grid2>
 
-                <Grid2 xs={6} md={6}>
+                <Grid2 xs={6} md={6} className='animate-right'>
                     <Box
                         sx={{
                             textAlign: 'center',
@@ -90,7 +90,11 @@ const EducationDevelopment = () => {
                 spacing={{ xs: 1, md: 2 }}
                 columns={{ xs: 6, md: 12 }}
             >
-                <Grid2 xs={6} order={{ xs: '1', md: '0' }}>
+                <Grid2
+                    xs={6}
+                    order={{ xs: '1', md: '0' }}
+                    className='animate-left'
+                >
                     <Box
                         sx={{
                             textAlign: 'center',
@@ -133,7 +137,7 @@ const EducationDevelopment = () => {
                     </Box>
                 </Grid2>
                 <Grid2 xs={6}>
-                    <Box>
+                    <Box className='animate-right'>
                         <Typography variant='h4' gutterBottom>
                             Продолжаешь ли ты развиваться в преподавании?
                         </Typography>

@@ -10,10 +10,11 @@ const MyLessons = () => {
                 variant='h4'
                 gutterBottom
                 sx={{ textAlign: { xs: 'left', md: 'center' } }}
+                className='animate-center'
             >
                 Что вы увидите у меня на уроке?
             </Typography>
-            <Typography variant='body1' gutterBottom>
+            <Typography variant='body1' gutterBottom className='animate-left'>
                 Мои уроки строятся на индивидуальном подходе к целям и нуждам
                 ученика. Перед началом занятий мы с вами созваниваемся и
                 обсуждаем ваш опыт изучения языка,цели,предпочтения и ожидания
@@ -21,7 +22,11 @@ const MyLessons = () => {
                 курса в дальнейшем корректируется в соответствии с успехами и
                 пожеланиями ученика.
             </Typography>
-            <Typography variant='body1' sx={{ mb: '2rem' }}>
+            <Typography
+                variant='body1'
+                sx={{ mb: '2rem' }}
+                className='animate-right'
+            >
                 Мои уроки проходят на платформах Edvibe,Amazy, Miro и Google
                 Jjamboard. Каждый урок я создаю лично и стараюсь сделать его
                 максимально интерактивным, красочным и интересным для ученика.
@@ -31,11 +36,12 @@ const MyLessons = () => {
                 variant='h4'
                 gutterBottom
                 sx={{ textAlign: { xs: 'left', md: 'center' } }}
+                className='animate-center'
             >
                 Какие ресурсы я использую на своих уроках?
             </Typography>
-            <Typography variant='body1' gutterBottom>
-                Помимо индивидуально подобранных учебных пособий,я вношу
+            <Typography variant='body1' gutterBottom className='animate-left'>
+                Помимо индивидуально подобранных учебных пособий, я вношу
                 разнообразие в свои уроки с помощью песен, коротких фильмов и
                 статей на английском языке. У каждого моего студента есть
                 возможность заниматься по аутентичным ресурсам по любимой
