@@ -27,6 +27,8 @@ const EducationDevelopment = () => {
             sx={{
                 padding: '1rem',
                 mb: '3rem',
+                backgroundColor: '#e8745d',
+                color: 'white',
             }}
         >
             <Grid2
@@ -34,14 +36,15 @@ const EducationDevelopment = () => {
                 spacing={{ xs: 1, md: 2 }}
                 columns={{ xs: 6, md: 12 }}
                 sx={{ mb: '3rem' }}
+                className='animate-left'
             >
-                <Grid2 xs={6} md={6} className='animate-left'>
+                <Grid2 xs={6} md={6}>
                     <Typography variant='h4' gutterBottom>
                         Какое у меня образование?
                     </Typography>
                     <Grid2 container sx={{ mb: '1rem' }}>
                         <Grid2 xs={1}>
-                            <CheckCircleIcon color='primary' />
+                            <CheckCircleIcon color='secondary' />
                         </Grid2>
                         <Grid2 xs={11}>
                             <Typography variant='body1'>
@@ -50,7 +53,7 @@ const EducationDevelopment = () => {
                             </Typography>
                         </Grid2>
                         <Grid2 xs={1}>
-                            <CheckCircleIcon color='primary' />
+                            <CheckCircleIcon color='secondary' />
                         </Grid2>
                         <Grid2 xs={11}>
                             <Typography variant='body1'>
@@ -61,7 +64,7 @@ const EducationDevelopment = () => {
                     </Grid2>
                 </Grid2>
 
-                <Grid2 xs={6} md={6} className='animate-right'>
+                <Grid2 xs={6} md={6}>
                     <Box
                         sx={{
                             textAlign: 'center',
@@ -89,12 +92,9 @@ const EducationDevelopment = () => {
                 container
                 spacing={{ xs: 1, md: 2 }}
                 columns={{ xs: 6, md: 12 }}
+                className='animate-left'
             >
-                <Grid2
-                    xs={6}
-                    order={{ xs: '1', md: '0' }}
-                    className='animate-left'
-                >
+                <Grid2 xs={6} order={{ xs: '1', md: '0' }}>
                     <Box
                         sx={{
                             textAlign: 'center',
@@ -137,7 +137,7 @@ const EducationDevelopment = () => {
                     </Box>
                 </Grid2>
                 <Grid2 xs={6}>
-                    <Box className='animate-right'>
+                    <Box>
                         <Typography variant='h4' gutterBottom>
                             Продолжаешь ли ты развиваться в преподавании?
                         </Typography>
@@ -150,7 +150,7 @@ const EducationDevelopment = () => {
                         </Typography>
                         <Grid2 container sx={{ mb: '1rem' }}>
                             <Grid2 xs={1}>
-                                <CheckCircleIcon color='primary' />
+                                <CheckCircleIcon color='secondary' />
                             </Grid2>
                             <Grid2 xs={11}>
                                 <Typography variant='body1'>
@@ -159,7 +159,7 @@ const EducationDevelopment = () => {
                                 </Typography>
                             </Grid2>
                             <Grid2 xs={1}>
-                                <CheckCircleIcon color='primary' />
+                                <CheckCircleIcon color='secondary' />
                             </Grid2>
                             <Grid2 xs={11}>
                                 <Typography variant='body1'>
@@ -167,7 +167,7 @@ const EducationDevelopment = () => {
                                 </Typography>
                             </Grid2>
                             <Grid2 xs={1}>
-                                <CheckCircleIcon color='primary' />
+                                <CheckCircleIcon color='secondary' />
                             </Grid2>
                             <Grid2 xs={11}>
                                 <Typography variant='body1'>

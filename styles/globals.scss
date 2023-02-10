@@ -22,6 +22,16 @@ main {
     padding-bottom: 3rem;
 }
 
+.br {
+    display: none;
+}
+
+@media (max-width: 1317px) {
+    .br {
+        display: inline;
+    }
+}
+
 @media (max-width: 1024px) {
     .page {
         padding: 0;

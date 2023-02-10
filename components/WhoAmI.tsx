@@ -40,10 +40,10 @@ const WhoAmI = () => {
                 flexDirection={{ xs: 'column', md: 'row' }}
                 gap={{ xs: '0.5rem', md: '1rem' }}
                 justifyContent={'center'}
+                className='animate-left'
             >
                 <Stack flexDirection='column' gap={{ xs: '1rem', md: '2rem' }}>
                     <Stack
-                        className='animate-left'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -59,7 +59,6 @@ const WhoAmI = () => {
                         </Typography>
                     </Stack>
                     <Stack
-                        className='animate-right'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -77,7 +76,6 @@ const WhoAmI = () => {
                 </Stack>
                 <Stack flexDirection='column' gap={{ xs: '1rem', md: '2rem' }}>
                     <Stack
-                        className='animate-left'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -89,12 +87,10 @@ const WhoAmI = () => {
                             variant='body1'
                             textAlign={{ xs: 'left', md: 'center' }}
                         >
-                            А также подготовила 10 учеников к успешной сдаче ОГЭ
-                            и ЕГЭ
+                            Подготовила 10 учеников к успешной сдаче ОГЭ и ЕГЭ
                         </Typography>
                     </Stack>
                     <Stack
-                        className='animate-right'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -113,13 +109,8 @@ const WhoAmI = () => {
                         </Typography>
                     </Stack>
                 </Stack>
-                <Stack
-                    className='animate-left'
-                    flexDirection='column'
-                    gap={{ xs: '1rem', md: '2rem' }}
-                >
+                <Stack flexDirection='column' gap={{ xs: '1rem', md: '2rem' }}>
                     <Stack
-                        className='animate-left'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >
@@ -132,7 +123,6 @@ const WhoAmI = () => {
                         </Typography>
                     </Stack>
                     <Stack
-                        className='animate-right'
                         gap='0.5rem'
                         alignItems={{ xs: 'flex-start', md: 'center' }}
                     >

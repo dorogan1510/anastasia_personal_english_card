@@ -81,11 +81,21 @@ const Reviews = () => {
     const [modalImg, setModalImg] = useState<any>(null)
 
     return (
-        <Container id='id8' maxWidth='xl' sx={{ mb: '3rem' }}>
+        <Container
+            id='id8'
+            maxWidth='xl'
+            sx={{
+                mb: '3rem',
+                p: '1rem',
+                backgroundColor: '#e8745d',
+                color: 'white',
+            }}
+        >
             <Typography
                 variant='h4'
                 sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
                 gutterBottom
+                className='animate-center'
             >
                 Отзывы о сотрудничестве со мной
             </Typography>
@@ -94,12 +104,12 @@ const Reviews = () => {
                 spacing={{ xs: 2, md: 3 }}
                 columns={{ xs: 1, md: 5 }}
                 justifyContent='center'
+                className='animate-left'
             >
                 {imgNames.map(data => (
                     <Grid2
                         key={data.id}
                         sx={{ maxWidth: { xs: '150px', md: '250px' } }}
-                        className='animate-left'
                     >
                         <Button
                             onClick={() => {

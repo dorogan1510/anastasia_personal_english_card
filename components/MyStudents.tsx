@@ -17,8 +17,9 @@ const MyStudents = () => {
                 justifyContent='center'
                 gap='1rem'
                 flexDirection={{ xs: 'column', md: 'row' }}
+                className='animate-right'
             >
-                <Box sx={{ maxWidth: '800px' }} className='animate-left'>
+                <Box sx={{ maxWidth: '800px' }}>
                     <Typography variant='h4' gutterBottom>
                         Кто мои студенты?
                     </Typography>
@@ -70,7 +71,7 @@ const MyStudents = () => {
                         </Grid2>
                     </Grid2>
                 </Box>
-                <Box className='animate-right'>
+                <Box>
                     <Image
                         src={img}
                         alt={'img'}

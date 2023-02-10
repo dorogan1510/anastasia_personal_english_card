@@ -87,7 +87,7 @@ const Footer = () => {
                             className={style.link}
                             target='_blank'
                         >
-                            <Typography variant='body2'>Инстаграм</Typography>
+                            <Typography variant='body2'>Instagram</Typography>
                         </Link>
                     </Stack>
                     <Stack
@@ -102,28 +102,12 @@ const Footer = () => {
                         >
                             <TelegramIcon color='secondary' />
                             <Link
-                                href={'https://t.me/+79256825060'}
-                                className={style.link}
-                                target='_blank'
-                            >
-                                <Typography variant='body2'>
-                                    Основной
-                                </Typography>
-                            </Link>
-                        </Stack>
-                        <Stack
-                            flexDirection={'row'}
-                            gap='0.5rem'
-                            alignItems={'center'}
-                        >
-                            <TelegramIcon color='secondary' />
-                            <Link
                                 href={'https://t.me/+79060725588'}
                                 className={style.link}
                                 target='_blank'
                             >
                                 <Typography variant='body2'>
-                                    Дополнительный
+                                    Telegram
                                 </Typography>
                             </Link>
                         </Stack>
@@ -141,31 +125,13 @@ const Footer = () => {
                             <WhatsAppIcon color='secondary' />
                             <Link
                                 href={
-                                    'https://api.whatsapp.com/send?phone=79256825060&text='
-                                }
-                                className={style.link}
-                                target='_blank'
-                            >
-                                <Typography variant='body2'>
-                                    Основной
-                                </Typography>
-                            </Link>
-                        </Stack>
-                        <Stack
-                            flexDirection={'row'}
-                            gap='0.5rem'
-                            alignItems={'center'}
-                        >
-                            <WhatsAppIcon color='secondary' />
-                            <Link
-                                href={
                                     'https://api.whatsapp.com/send?phone=79060725588&text='
                                 }
                                 className={style.link}
                                 target='_blank'
                             >
                                 <Typography variant='body2'>
-                                    Дополнительный
+                                    WhatsApp
                                 </Typography>
                             </Link>
                         </Stack>

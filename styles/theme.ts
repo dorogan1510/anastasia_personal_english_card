@@ -41,7 +41,7 @@ const theme = createTheme({
             },
         },
         h4: {
-            fontWeight: 500,
+            fontWeight: 700,
             '@media (max-width:1024px)': {
                 fontSize: '24px',
             },

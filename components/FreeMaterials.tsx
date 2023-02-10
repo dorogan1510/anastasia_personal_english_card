@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
-import { Container } from '@mui/material'
+import { Box, Container } from '@mui/material'
 import Image from 'next/image'
 import scr1 from '../src/img/scr1.png'
 import scr2 from '../src/img/scr2.png'
@@ -73,7 +73,7 @@ const FreeMaterials = () => {
                     textAlign: { xs: 'flex-start', md: 'center' },
                     mb: '2rem',
                 }}
-                className='animate-center'
+                className='animate-left'
             >
                 Бесплатные материалы
             </Typography>
@@ -83,9 +83,10 @@ const FreeMaterials = () => {
                 columns={{ xs: 1, md: 2 }}
                 justifyContent='center'
                 sx={{ mb: '3rem' }}
+                className='animate-right'
             >
                 {imgNames.map(data => (
-                    <Grid2 key={data.id} className='animate-left'>
+                    <Grid2 key={data.id}>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia component={'div'}>
                                 <Image
@@ -116,35 +117,35 @@ const FreeMaterials = () => {
                     </Grid2>
                 ))}
             </Grid2>
-
-            <Typography
-                variant='h4'
-                sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
-                gutterBottom
-                className='animate-center'
-            >
-                Бесплатные каналы по изучению английского
-            </Typography>
-            <Typography
-                variant='body1'
-                sx={{
-                    textAlign: { xs: 'flex-start', md: 'center' },
-                    mb: '2rem',
-                }}
-                className='animate-left'
-            >
-                Здесь я рассказываю про лингвистические интересности,делюсь
-                полезными ссылками для изучения языка и рассказываю про сложные
-                языковые явления простым языком.
-            </Typography>
+            <Box className='animate-left'>
+                <Typography
+                    variant='h4'
+                    sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
+                    gutterBottom
+                >
+                    Бесплатные каналы по изучению английского
+                </Typography>
+                <Typography
+                    variant='body1'
+                    sx={{
+                        textAlign: { xs: 'flex-start', md: 'center' },
+                        mb: '2rem',
+                    }}
+                >
+                    Здесь я рассказываю про лингвистические интересности,делюсь
+                    полезными ссылками для изучения языка и рассказываю про
+                    сложные языковые явления простым языком.
+                </Typography>
+            </Box>
             <Grid2
                 container
                 spacing={{ xs: 2, md: 3 }}
                 columns={{ xs: 1, md: 2 }}
                 justifyContent='center'
+                className='animate-right'
             >
                 {freeChannels.map(data => (
-                    <Grid2 key={data.id} className='animate-right'>
+                    <Grid2 key={data.id}>
                         <Card sx={{ maxWidth: 345 }}>
                             <CardMedia component={'div'}>
                                 <Image

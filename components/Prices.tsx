@@ -40,7 +40,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -63,7 +63,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -86,7 +86,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -117,7 +117,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -140,7 +140,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -163,7 +163,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -186,7 +186,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -222,6 +222,19 @@ const Prices = () => {
                 материалами и нужной вам информацией, после консультации вы
                 также получите запись нашего звонка
             </Typography>
+            <Typography
+                variant='body1'
+                sx={{ mb: '2rem' }}
+                className='animate-center'
+            >
+                Также если Вы — начинающий преподаватель или делаете свои первые
+                шаги в преподавании ОНЛАЙН и хотите узнать о полезных сайтах и
+                ресурсах,усовершенствовать свои навыки работы в онлайн или же
+                научиться выстраивать урок эффективно и интересно для ученика,
+                то я предлагаю Вам записаться на консультацию для
+                преподавателей. В комплект консультации входят: запись звонка на
+                1.5 часа+презентация с материалами и рекомендациями.
+            </Typography>
             <Grid2
                 container
                 spacing={{ xs: 2, md: 3 }}
@@ -232,7 +245,9 @@ const Prices = () => {
                 <Grid2 className='animate-left'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
-                            <Typography variant='h5'>Консультация</Typography>
+                            <Typography variant='h5'>
+                                Консультация по запросу
+                            </Typography>
                             <Typography sx={{ mb: 1.5 }} color='text.secondary'>
                                 60 минут
                             </Typography>
@@ -240,7 +255,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -253,7 +268,9 @@ const Prices = () => {
                 <Grid2 className='animate-right'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
-                            <Typography variant='h5'>Консультация</Typography>
+                            <Typography variant='h5'>
+                                Консультация по запросу
+                            </Typography>
                             <Typography sx={{ mb: 1.5 }} color='text.secondary'>
                                 90 минут
                             </Typography>
@@ -261,7 +278,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
@@ -271,38 +288,7 @@ const Prices = () => {
                         </CardActions>
                     </Card>
                 </Grid2>
-            </Grid2>
-
-            <Typography
-                variant='h4'
-                gutterBottom
-                sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
-                className='animate-center'
-            >
-                Консультации для преподавателей
-            </Typography>
-            <Typography
-                variant='body1'
-                gutterBottom
-                sx={{ mb: '2rem' }}
-                className='animate-left'
-            >
-                Если Вы-начинающий преподаватель или делаете свои первые шаги в
-                преподавании ОНЛАЙН и хотите узнать о полезных сайтах и
-                ресурсах,усовершенствовать свои навыки работы в онлайн или же
-                научиться выстраивать урок эффективно и интересно для ученика,
-                то я предлагаю Вам записаться на консультацию для
-                преподавателей. В комплект консультации входят: запись звонка на
-                1.5 часа+презентация с материалами и рекомендациями.
-            </Typography>
-            <Grid2
-                container
-                spacing={{ xs: 2, md: 3 }}
-                columns={{ xs: 1, md: 1 }}
-                justifyContent='center'
-                sx={{ mb: '3rem' }}
-            >
-                <Grid2 className='animate-right'>
+                <Grid2 className='animate-left'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>
                             <Typography variant='h5'>
@@ -315,7 +301,7 @@ const Prices = () => {
                         </CardContent>
                         <CardActions>
                             <Button
-                                href='https://api.whatsapp.com/send?phone=79256825060&text='
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
                                 size='small'
                                 variant='contained'
                                 target='_blank'
