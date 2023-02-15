@@ -80,7 +80,10 @@ const Header = () => {
                         <Container maxWidth='xl'>
                             <Toolbar disableGutters>
                                 <Box
-                                    sx={{ flexGrow: 1 }}
+                                    sx={{
+                                        flexGrow: 1,
+                                        display: { xs: 'block', md: 'none' },
+                                    }}
                                     className='animate-hero-left'
                                 >
                                     <IconButton href='#id1' sx={{ p: 0 }}>
@@ -99,7 +102,7 @@ const Header = () => {
                                     sx={{
                                         flexGrow: 1,
                                         display: { xs: 'none', md: 'flex' },
-                                        justifyContent: 'flex-end',
+                                        justifyContent: 'center',
                                     }}
                                 >
                                     {pages.map(page => (

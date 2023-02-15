@@ -10,16 +10,16 @@ import {
 import Grid2 from '@mui/material/Unstable_Grid2'
 import Image, { StaticImageData } from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
-import img1 from '../src/img/reviews/1.webp'
-import img2 from '../src/img/reviews/2.webp'
-import img3 from '../src/img/reviews/3.webp'
-import img4 from '../src/img/reviews/4.webp'
-import img5 from '../src/img/reviews/5.webp'
-import img6 from '../src/img/reviews/6.webp'
-import img7 from '../src/img/reviews/7.webp'
-import img8 from '../src/img/reviews/8.webp'
-import img9 from '../src/img/reviews/9.webp'
-import img10 from '../src/img/reviews/10.webp'
+import img1 from '../src/img/reviews/1.jpg'
+import img2 from '../src/img/reviews/2.jpg'
+import img3 from '../src/img/reviews/3.jpg'
+import img4 from '../src/img/reviews/4.jpg'
+import img5 from '../src/img/reviews/5.jpg'
+import img6 from '../src/img/reviews/6.jpg'
+import img7 from '../src/img/reviews/7.jpg'
+import img8 from '../src/img/reviews/8.jpg'
+import img9 from '../src/img/reviews/9.jpg'
+import img10 from '../src/img/reviews/10.jpg'
 import styles from '../styles/Reviews.module.scss'
 
 const imgNames = [
@@ -59,10 +59,10 @@ const imgNames = [
         id: 9,
         img: img9,
     },
-    {
-        id: 10,
-        img: img10,
-    },
+    // {
+    //     id: 10,
+    //     img: img10,
+    // },
 ]
 
 const style = {
