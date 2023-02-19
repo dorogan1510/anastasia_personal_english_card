@@ -5,7 +5,7 @@ import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import Image from 'next/image'
 import Carousel from 'react-material-ui-carousel'
 import bachelor from '../src/certificates/bachelor.webp'
-import cert1 from '../src/certificates/cert1.jpg'
+import cert1 from '../src/certificates/cert1.webp'
 import cert2 from '../src/certificates/cert2.webp'
 import cert3 from '../src/certificates/cert3.webp'
 import master from '../src/certificates/master.webp'
@@ -75,7 +75,7 @@ const EducationDevelopment = () => {
                                 src={bachelor}
                                 alt={'bachelor'}
                                 className={style.image}
-                                priority
+                                loading='lazy'
                             />
                         </Carousel>
                     </Box>
@@ -103,7 +103,7 @@ const EducationDevelopment = () => {
                                     maxWidth: '585px',
                                     maxHeight: '413px',
                                 }}
-                                priority
+                                loading='lazy'
                             />
 
                             <Image

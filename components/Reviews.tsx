@@ -164,7 +164,7 @@ const Reviews = () => {
                         <Image
                             src={modalImg}
                             alt={'img'}
-                            priority
+                            loading='lazy'
                             style={{
                                 width: '100%',
                                 height: 'auto',

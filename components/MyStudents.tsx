@@ -75,7 +75,7 @@ const MyStudents = () => {
                         src={img}
                         alt={'img'}
                         className={styles.image}
-                        priority
+                        loading='lazy'
                     />
                 </Box>
             </Stack>
