@@ -10,7 +10,7 @@ import {
 } from '@next/font/google'
 
 export const roboto = Raleway({
-    weight: ['300', '400', '500', '700'],
+    weight: ['300', '400', '500', '700', '900'],
     subsets: ['latin', 'cyrillic'],
     display: 'swap',
     fallback: ['Helvetica', 'Arial', 'sans-serif'],
