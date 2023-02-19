@@ -1,7 +1,15 @@
 import { createTheme } from '@mui/material/styles'
-import { Inter, Montserrat, Raleway, Roboto } from '@next/font/google'
+import {
+    Inter,
+    Montserrat,
+    Raleway,
+    Roboto,
+    Open_Sans,
+    Oswald,
+    Merriweather,
+} from '@next/font/google'
 
-export const roboto = Inter({
+export const roboto = Raleway({
     weight: ['300', '400', '500', '700'],
     subsets: ['latin', 'cyrillic'],
     display: 'swap',
@@ -47,6 +55,7 @@ const theme = createTheme({
             },
         },
         h5: {
+            fontWeight: 500,
             '@media (max-width:1024px)': {
                 fontSize: '16px',
             },
@@ -59,6 +68,8 @@ const theme = createTheme({
         },
         body1: {
             fontSize: '18px',
+            fontWeight: 500,
+
             '@media (max-width:1024px)': {
                 fontSize: '14px',
             },
