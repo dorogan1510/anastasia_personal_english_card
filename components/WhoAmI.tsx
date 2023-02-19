@@ -1,13 +1,12 @@
-import { Box, Container, Typography } from '@mui/material'
-import { Stack } from '@mui/system'
+import BusinessIcon from '@mui/icons-material/Business'
 import MonitorIcon from '@mui/icons-material/Monitor'
 import SchoolIcon from '@mui/icons-material/School'
-import BusinessIcon from '@mui/icons-material/Business'
-import england from '../src/img/england.png'
-import china from '../src/img/china.png'
-import usa from '../src/img/usa.png'
-import React from 'react'
+import { Box, Container, Typography } from '@mui/material'
+import { Stack } from '@mui/system'
 import Image from 'next/image'
+import china from '../src/img/china.webp'
+import england from '../src/img/england.webp'
+import usa from '../src/img/usa.webp'
 
 const WhoAmI = () => {
     return (

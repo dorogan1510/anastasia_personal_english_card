@@ -1,11 +1,9 @@
-import React from 'react'
-import { usePathname } from 'next/navigation'
-import Link from 'next/link'
-import TelegramIcon from '@mui/icons-material/Telegram'
 import InstagramIcon from '@mui/icons-material/Instagram'
+import TelegramIcon from '@mui/icons-material/Telegram'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
-import { Button, Container, Typography } from '@mui/material'
+import { Container, Typography } from '@mui/material'
 import Stack from '@mui/material/Stack'
+import Link from 'next/link'
 import style from '../styles/Footer.module.scss'
 
 const pages = [

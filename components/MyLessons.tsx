@@ -1,7 +1,5 @@
 import { Box, Typography } from '@mui/material'
 import Container from '@mui/material/Container/Container'
-import React from 'react'
-import styles from '../styles/MyLessons.module.scss'
 
 const MyLessons = () => {
     return (

@@ -2,8 +2,6 @@ import { Typography } from '@mui/material'
 import Container from '@mui/material/Container'
 import Paper from '@mui/material/Paper'
 import Grid2 from '@mui/material/Unstable_Grid2'
-import React, { useEffect, useRef, useState } from 'react'
-import { motion } from 'framer-motion'
 import '../styles/globals.scss'
 
 const WhatITeach = () => {

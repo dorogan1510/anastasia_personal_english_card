@@ -1,10 +1,9 @@
 import { Button, Container, Stack, Typography } from '@mui/material'
-import Image from 'next/image'
-import React from 'react'
-import styles from '../styles/HeroSection.module.scss'
-import image1 from '../src/img/image1.webp'
 import { Box } from '@mui/system'
+import Image from 'next/image'
 import Balancer from 'react-wrap-balancer'
+import image1 from '../src/img/image1.webp'
+import styles from '../styles/HeroSection.module.scss'
 
 const HeroSection = () => {
     return (

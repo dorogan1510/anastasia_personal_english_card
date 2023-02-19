@@ -10,7 +10,6 @@ import WhoAmI from '@/components/WhoAmI'
 import HeroSection from 'components/HeroSection'
 import MyLessons from 'components/MyLessons'
 import Reviews from 'components/Reviews'
-import React from 'react'
 
 export default function Home() {
     return (

@@ -1,12 +1,12 @@
 'use client'
 
+import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import { CssBaseline } from '@mui/material'
+import { ThemeProvider } from '@mui/material/styles'
+import React from 'react'
 import '../styles/globals.scss'
 import theme from '../styles/theme'
-import { ThemeProvider } from '@mui/material/styles'
-import { CssBaseline } from '@mui/material'
-import Footer from '@/components/Footer'
-import React from 'react'
 
 export default function RootLayout({
     children,
