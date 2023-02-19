@@ -141,7 +141,7 @@ const Reviews = () => {
                                     height: 'auto',
                                     borderRadius: '20px',
                                 }}
-                                priority
+                                loading='lazy'
                             />
                         </Button>
                     </Grid2>

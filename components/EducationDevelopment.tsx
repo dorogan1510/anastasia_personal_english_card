@@ -69,7 +69,7 @@ const EducationDevelopment = () => {
                                 src={master}
                                 alt={'master'}
                                 className={style.image}
-                                priority
+                                loading='lazy'
                             />
                             <Image
                                 src={bachelor}
@@ -114,7 +114,7 @@ const EducationDevelopment = () => {
                                     maxWidth: '585px',
                                     maxHeight: '413px',
                                 }}
-                                priority
+                                loading='lazy'
                             />
                             <Image
                                 className={style.image}
@@ -124,7 +124,7 @@ const EducationDevelopment = () => {
                                     maxWidth: '585px',
                                     maxHeight: '413px',
                                 }}
-                                priority
+                                loading='lazy'
                             />
                         </Carousel>
                     </Box>
