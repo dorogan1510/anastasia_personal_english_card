@@ -21,6 +21,8 @@ import img8 from '../src/img/reviews/8.jpg'
 import img9 from '../src/img/reviews/9.jpg'
 import img10 from '../src/img/reviews/10.jpg'
 import img11 from '../src/img/reviews/11.jpg'
+import img12 from '../src/img/reviews/12.jpg'
+import img13 from '../src/img/reviews/13.jpg'
 import styles from '../styles/Reviews.module.scss'
 
 const imgNames = [
@@ -67,6 +69,14 @@ const imgNames = [
     {
         id: 11,
         img: img11,
+    },
+    {
+        id: 12,
+        img: img12,
+    },
+    {
+        id: 13,
+        img: img13,
     },
 ]
 

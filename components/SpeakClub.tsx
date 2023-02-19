@@ -21,48 +21,44 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime'
 const SpeakClub = () => {
     return (
         <Container maxWidth='xl'>
-            <Typography
-                variant='h4'
-                gutterBottom
-                sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
-                className='animate-center'
-            >
-                Разговорный клуб английского языка с носителем
-            </Typography>
-            <Typography variant='body1' gutterBottom className='animate-center'>
-                Если тебе{' '}
-                <b>не хватает разговорной практики английского языка</b> и ты
-                хотел(а) бы использовать свои знания языка и навыки в общении с
-                единомышленниками на разные темы, то мой{' '}
-                <b>разговорный клуб - это отличная возможность</b> не только
-                <b>“пустить в ход”</b> и <b>отточить имеющиеся знания</b> и
-                приемы в английском, но и{' '}
-                <b>узнать много новой лексики и грамматики</b> на самые разные
-                разговорные темы в уютной атмосфере нашего клуба!
-            </Typography>
-            <Typography variant='body1' gutterBottom className='animate-center'>
-                А еще наш разговорный клуб проходит{' '}
-                <b>с носителем английского языка,</b> поэтому не пропустите
-                отличную возможность напрямую пообщаться с представителем
-                Англии!
-            </Typography>
-
-            <Typography
-                variant='body1'
-                sx={{ mb: '2rem' }}
-                className='animate-center'
-            >
-                Примеры наших уютных встреч разговорного клуба можно посмотреть
-                в моем блоге{' '}
-                <Link
-                    style={{ textDecoration: 'none', color: 'black' }}
-                    href={'https://www.instagram.com/zazafox/'}
-                    target='_blank'
+            <Box className='animate-center'>
+                <Typography
+                    variant='h4'
+                    gutterBottom
+                    sx={{ textAlign: { xs: 'flex-start', md: 'center' } }}
                 >
-                    @zazafox
-                </Link>{' '}
-                в разделе “S.Club”
-            </Typography>
+                    Разговорный клуб английского языка с носителем
+                </Typography>
+                <Typography variant='body1' gutterBottom>
+                    Если тебе{' '}
+                    <b>не хватает разговорной практики английского языка</b> и
+                    ты хотел(а) бы использовать свои знания языка и навыки в
+                    общении с единомышленниками на разные темы, то мой{' '}
+                    <b>разговорный клуб - это отличная возможность</b> не только
+                    <b>“пустить в ход”</b> и <b>отточить имеющиеся знания</b> и
+                    приемы в английском, но и{' '}
+                    <b>узнать много новой лексики и грамматики</b> на самые
+                    разные разговорные темы в уютной атмосфере нашего клуба!
+                </Typography>
+                <Typography variant='body1' gutterBottom>
+                    А еще наш разговорный клуб проходит{' '}
+                    <b>с носителем английского языка,</b> поэтому не пропустите
+                    отличную возможность напрямую пообщаться с представителем
+                    Англии!
+                </Typography>
+                <Typography variant='body1' sx={{ mb: '2rem' }}>
+                    Примеры наших уютных встреч разговорного клуба можно
+                    посмотреть в моем блоге{' '}
+                    <Link
+                        style={{ textDecoration: 'none', color: 'black' }}
+                        href={'https://www.instagram.com/zazafox/'}
+                        target='_blank'
+                    >
+                        @zazafox
+                    </Link>{' '}
+                    в разделе “S.Club”
+                </Typography>
+            </Box>
             <Box className='animate-center'>
                 <Typography
                     variant='h4'
