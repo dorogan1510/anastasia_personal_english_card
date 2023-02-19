@@ -143,6 +143,7 @@ const Footer = () => {
                     sx={{
                         color: 'secondary.main',
                         textAlign: 'center',
+                        fontWeight: 700,
                     }}
                 >
                     До встречи на занятиях!
@@ -152,10 +153,21 @@ const Footer = () => {
                     sx={{
                         color: 'secondary.main',
                         textAlign: 'center',
-                        mb: '1rem',
+                        fontWeight: 700,
                     }}
                 >
                     Ваша Zazafox
+                </Typography>
+                <Typography
+                    variant='body1'
+                    sx={{
+                        color: 'secondary.main',
+                        textAlign: 'center',
+                        mb: '1rem',
+                        fontWeight: 700,
+                    }}
+                >
+                    🦊{' '}
                 </Typography>
             </Container>
         </footer>

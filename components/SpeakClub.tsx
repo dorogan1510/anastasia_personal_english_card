@@ -191,31 +191,38 @@ const SpeakClub = () => {
                     </Card>
                 </Grid2>
             </Grid2>
-            <Typography
-                variant='body1'
-                gutterBottom
-                className='animate-center'
-                sx={{ textAlign: { xs: 'left', md: 'center' } }}
-            >
-                За подробностями о дате и времени обратитесь в директ моего
-                блога{' '}
-                <Link
-                    style={{ textDecoration: 'none', color: 'black' }}
-                    href={'https://www.instagram.com/zazafox/'}
-                    target='_blank'
+            <Box className='animate-center'>
+                <Typography
+                    variant='body1'
+                    gutterBottom
+                    sx={{
+                        textAlign: { xs: 'left', md: 'center' },
+                        fontWeight: 700,
+                    }}
                 >
-                    @zazafox
-                </Link>
-            </Typography>
-            <Typography
-                variant='body1'
-                gutterBottom
-                className='animate-center'
-                sx={{ mb: '3rem', textAlign: { xs: 'left', md: 'center' } }}
-            >
-                Приходи и прокачай свой английский с удовольствием на наших
-                уютных сессиях!
-            </Typography>
+                    За подробностями о дате и времени обратитесь в директ моего
+                    блога{' '}
+                    <Link
+                        style={{ textDecoration: 'none', color: 'black' }}
+                        href={'https://www.instagram.com/zazafox/'}
+                        target='_blank'
+                    >
+                        @zazafox
+                    </Link>
+                </Typography>
+                <Typography
+                    variant='body1'
+                    gutterBottom
+                    sx={{
+                        mb: '3rem',
+                        textAlign: { xs: 'left', md: 'center' },
+                        fontWeight: 700,
+                    }}
+                >
+                    Приходи и прокачай свой английский с удовольствием на наших
+                    уютных сессиях!
+                </Typography>
+            </Box>
         </Container>
     )
 }
