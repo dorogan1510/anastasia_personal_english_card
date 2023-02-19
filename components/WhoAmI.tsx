@@ -70,7 +70,7 @@ const WhoAmI = () => {
                             variant='body1'
                             textAlign={{ xs: 'left', md: 'center' }}
                         >
-                            В частной гимназии в подмосковье
+                            В частной гимназии в Барвихе
                         </Typography>
                     </Stack>
                 </Stack>

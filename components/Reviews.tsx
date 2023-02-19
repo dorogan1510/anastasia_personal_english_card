@@ -20,6 +20,7 @@ import img7 from '../src/img/reviews/7.jpg'
 import img8 from '../src/img/reviews/8.jpg'
 import img9 from '../src/img/reviews/9.jpg'
 import img10 from '../src/img/reviews/10.jpg'
+import img11 from '../src/img/reviews/11.jpg'
 import styles from '../styles/Reviews.module.scss'
 
 const imgNames = [
@@ -59,10 +60,14 @@ const imgNames = [
         id: 9,
         img: img9,
     },
-    // {
-    //     id: 10,
-    //     img: img10,
-    // },
+    {
+        id: 10,
+        img: img10,
+    },
+    {
+        id: 11,
+        img: img11,
+    },
 ]
 
 const style = {

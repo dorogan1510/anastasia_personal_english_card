@@ -74,6 +74,7 @@ const Footer = () => {
                     alignItems={{ xs: 'center', md: 'flex-start' }}
                     justifyContent={'center'}
                     gap='1rem'
+                    sx={{ mb: '1rem' }}
                 >
                     <Stack
                         flexDirection={'row'}
@@ -137,6 +138,25 @@ const Footer = () => {
                         </Stack>
                     </Stack>
                 </Stack>
+                <Typography
+                    variant='body1'
+                    sx={{
+                        color: 'secondary.main',
+                        textAlign: 'center',
+                    }}
+                >
+                    До встречи на занятиях!
+                </Typography>
+                <Typography
+                    variant='body1'
+                    sx={{
+                        color: 'secondary.main',
+                        textAlign: 'center',
+                        mb: '1rem',
+                    }}
+                >
+                    Ваша Zazafox
+                </Typography>
             </Container>
         </footer>
     )

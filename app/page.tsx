@@ -4,6 +4,7 @@ import EducationDevelopment from '@/components/EducationDevelopment'
 import FreeMaterials from '@/components/FreeMaterials'
 import MyStudents from '@/components/MyStudents'
 import Prices from '@/components/Prices'
+import SpeakClub from '@/components/SpeakClub'
 import WhatITeach from '@/components/WhatITeach'
 import WhoAmI from '@/components/WhoAmI'
 import HeroSection from 'components/HeroSection'
@@ -21,6 +22,7 @@ export default function Home() {
             <WhatITeach />
             <MyLessons />
             <Prices />
+            <SpeakClub />
             <Reviews />
             <FreeMaterials />
         </main>
