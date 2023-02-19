@@ -144,6 +144,7 @@ const FreeMaterials = () => {
                 columns={{ xs: 1, md: 2 }}
                 justifyContent='center'
                 className='animate-right'
+                sx={{ mb: '3rem' }}
             >
                 {freeChannels.map(data => (
                     <Grid2 key={data.id}>
@@ -177,6 +178,34 @@ const FreeMaterials = () => {
                     </Grid2>
                 ))}
             </Grid2>
+            <Typography
+                variant='h4'
+                sx={{
+                    textAlign: 'center',
+                    fontWeight: 700,
+                }}
+            >
+                До встречи на занятиях!
+            </Typography>
+            <Typography
+                variant='body1'
+                sx={{
+                    textAlign: 'center',
+                    fontWeight: 700,
+                }}
+            >
+                Ваша Zazafox
+            </Typography>
+            <Typography
+                variant='body1'
+                sx={{
+                    color: 'secondary.main',
+                    textAlign: 'center',
+                    fontWeight: 700,
+                }}
+            >
+                🦊{' '}
+            </Typography>
         </Container>
     )
 }

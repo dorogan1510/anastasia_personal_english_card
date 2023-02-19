@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material/styles'
 import { Inter, Montserrat, Raleway, Roboto } from '@next/font/google'
 
-export const roboto = Raleway({
+export const roboto = Inter({
     weight: ['300', '400', '500', '700'],
     subsets: ['latin', 'cyrillic'],
     display: 'swap',
