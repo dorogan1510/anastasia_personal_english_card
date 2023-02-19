@@ -15,6 +15,10 @@ import scr5 from '../src/img/scr5.png'
 import scr6 from '../src/img/scr6.png'
 import Grid2 from '@mui/material/Unstable_Grid2'
 import Balancer from 'react-wrap-balancer'
+import TranslateIcon from '@mui/icons-material/Translate'
+import ArticleIcon from '@mui/icons-material/Article'
+import ShareIcon from '@mui/icons-material/Share'
+import LanguageIcon from '@mui/icons-material/Language'
 
 const imgNames = [
     {
@@ -125,18 +129,49 @@ const FreeMaterials = () => {
                 >
                     Бесплатные каналы по изучению английского
                 </Typography>
-                <Typography
-                    variant='body1'
-                    sx={{
-                        textAlign: { xs: 'flex-start', md: 'center' },
-                        mb: '2rem',
-                    }}
-                >
-                    Здесь я рассказываю про лингвистические интересности, пишу
-                    статьи о преподавании и языковых лайфхаках, делюсь полезными
-                    ссылками для изучения английского и рассказываю про сложные
-                    языковые явления простым языком.
-                </Typography>
+
+                <Box sx={{ maxWidth: '800px' }}>
+                    <Typography variant='body1' sx={{ mb: '1rem' }}>
+                        Здесь я рассказываю про:
+                    </Typography>
+
+                    <Grid2 container sx={{ mb: '1rem' }}>
+                        <Grid2 xs={1}>
+                            <TranslateIcon color='primary' />
+                        </Grid2>
+                        <Grid2 xs={11}>
+                            <Typography variant='body1'>
+                                Лингвистические интересности
+                            </Typography>
+                        </Grid2>
+                        <Grid2 xs={1}>
+                            <ArticleIcon color='primary' />
+                        </Grid2>
+                        <Grid2 xs={11}>
+                            <Typography variant='body1'>
+                                Пишу статьи о преподавании и языковых лайфхаках
+                            </Typography>
+                        </Grid2>
+                        <Grid2 xs={1}>
+                            <ShareIcon color='primary' />
+                        </Grid2>
+                        <Grid2 xs={11}>
+                            <Typography variant='body1'>
+                                Делюсь полезными ссылками для изучения
+                                английского
+                            </Typography>
+                        </Grid2>
+                        <Grid2 xs={1}>
+                            <LanguageIcon color='primary' />
+                        </Grid2>
+                        <Grid2 xs={11}>
+                            <Typography variant='body1'>
+                                Рассказываю про сложные языковые явления простым
+                                языком
+                            </Typography>
+                        </Grid2>
+                    </Grid2>
+                </Box>
             </Box>
             <Grid2
                 container
