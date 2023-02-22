@@ -1,4 +1,3 @@
-
 import MenuIcon from '@mui/icons-material/Menu'
 import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
@@ -40,14 +39,18 @@ const pages = [
     },
     {
         id: '#id8',
-        link: 'Отзывы',
+        link: 'Менторство',
     },
     {
         id: '#id9',
-        link: 'Материалы',
+        link: 'Отзывы',
     },
     {
         id: '#id10',
+        link: 'Материалы',
+    },
+    {
+        id: '#id11',
         link: 'Контакты',
     },
 ]

@@ -18,6 +18,12 @@ import scr3 from '../src/img/scr3.webp'
 import scr4 from '../src/img/scr4.webp'
 import scr5 from '../src/img/scr5.webp'
 import scr6 from '../src/img/scr6.webp'
+import scr7 from '../src/img/scr7.webp'
+import scr8 from '../src/img/scr8.webp'
+import scr9 from '../src/img/scr9.webp'
+import scr10 from '../src/img/scr10.webp'
+import scr11 from '../src/img/scr11.webp'
+import scr12 from '../src/img/scr12.webp'
 
 const imgNames = [
     {
@@ -50,6 +56,42 @@ const imgNames = [
         text: 'Мини-курс по сериалу “Эмили в Париже часть 2”',
         href: 'https://drive.google.com/file/d/1Kr-Kj3ijxdqlIMd7hjTncnn6PfM7ZvOK/view?usp=drivesdk',
     },
+    {
+        id: 6,
+        img: scr7,
+        text: 'Уроки по теме "Рождество и Новый Год" для взрослых',
+        href: 'https://amazy.uk/lessons/45764',
+    },
+    {
+        id: 7,
+        img: scr8,
+        text: 'Уроки по теме "Рождество и Новый Год" для взрослых',
+        href: 'https://amazy.uk/lessons/45761',
+    },
+    {
+        id: 8,
+        img: scr9,
+        text: 'Рождественский урок для детей',
+        href: 'https://amazy.uk/lessons/45362',
+    },
+    {
+        id: 9,
+        img: scr10,
+        text: 'Уроки для взрослых по рождественским песням',
+        href: 'https://amazy.uk/lessons/45269',
+    },
+    {
+        id: 10,
+        img: scr11,
+        text: 'Уроки для взрослых по рождественским песням',
+        href: 'https://amazy.uk/lessons/43317',
+    },
+    {
+        id: 11,
+        img: scr12,
+        text: 'Уроки для взрослых по рождественским песням',
+        href: 'https://amazy.uk/lessons/43068',
+    },
 ]
 
 const freeChannels = [
@@ -69,7 +111,7 @@ const freeChannels = [
 
 const FreeMaterials = () => {
     return (
-        <Container id='id9' maxWidth='xl'>
+        <Container id='id10' maxWidth='xl'>
             <Typography
                 variant='h4'
                 sx={{

@@ -1,13 +1,12 @@
 import {
-    Card,
-    CardContent,
-    Typography,
-    CardActions,
     Button,
+    Card,
+    CardActions,
+    CardContent,
     Container,
+    Typography,
 } from '@mui/material'
 import Grid2 from '@mui/material/Unstable_Grid2'
-import React from 'react'
 
 const Prices = () => {
     return (
@@ -36,7 +35,7 @@ const Prices = () => {
                             <Typography sx={{ mb: 1.5 }} color='text.secondary'>
                                 45 минут
                             </Typography>
-                            <Typography variant='h4'>₽1700</Typography>
+                            <Typography variant='h4'>₽1600</Typography>
                         </CardContent>
                         <CardActions>
                             <Button
@@ -96,45 +95,16 @@ const Prices = () => {
                         </CardActions>
                     </Card>
                 </Grid2>
-            </Grid2>
-            <Grid2
-                container
-                spacing={{ xs: 2, md: 3 }}
-                columns={{ xs: 1, md: 2 }}
-                justifyContent='center'
-                sx={{ mb: '3rem' }}
-            >
                 <Grid2 className='animate-left'>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ minWidth: 275, maxWidth: 500 }}>
                         <CardContent>
                             <Typography variant='h5'>
-                                Групповое занятие онлайн
+                                Индивидуальные занятия для дошкольников и
+                                младших школьников
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color='text.secondary'>
-                                Занятие в паре 55 минут
-                            </Typography>
-                            <Typography variant='h4'>₽1500</Typography>
-                        </CardContent>
-                        <CardActions>
-                            <Button
-                                href='https://api.whatsapp.com/send?phone=79060725588&text='
-                                size='small'
-                                variant='contained'
-                                target='_blank'
-                            >
-                                Записаться
-                            </Button>
-                        </CardActions>
-                    </Card>
-                </Grid2>
-                <Grid2 className='animate-right'>
-                    <Card sx={{ minWidth: 275 }}>
-                        <CardContent>
-                            <Typography variant='h5'>
-                                Групповое занятие онлайн
-                            </Typography>
-                            <Typography sx={{ mb: 1.5 }} color='text.secondary'>
-                                Занятие в группе из 4х человек 55 минут
+                                35 минут (урок+ обратная связь лично с родителем
+                                после урока)
                             </Typography>
                             <Typography variant='h4'>₽1100</Typography>
                         </CardContent>
@@ -150,6 +120,64 @@ const Prices = () => {
                         </CardActions>
                     </Card>
                 </Grid2>
+            </Grid2>
+            <Grid2
+                container
+                spacing={{ xs: 2, md: 3 }}
+                columns={{ xs: 1, md: 2 }}
+                justifyContent='center'
+                sx={{ mb: '3rem' }}
+            >
+                <Grid2 className='animate-right'>
+                    <Card sx={{ minWidth: 275 }}>
+                        <CardContent>
+                            <Typography variant='h5'>
+                                Групповое занятие онлайн
+                            </Typography>
+                            <Typography sx={{ mb: 1.5 }} color='text.secondary'>
+                                Групповые занятия в паре или до 4х человек 45
+                                минут
+                            </Typography>
+                            <Typography variant='h4'>₽1000</Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
+                                Записаться
+                            </Button>
+                        </CardActions>
+                    </Card>
+                </Grid2>
+
+                <Grid2 className='animate-left'>
+                    <Card sx={{ minWidth: 275 }}>
+                        <CardContent>
+                            <Typography variant='h5'>
+                                Групповое занятие онлайн
+                            </Typography>
+                            <Typography sx={{ mb: 1.5 }} color='text.secondary'>
+                                Групповые занятия в паре или до 4х человек 60
+                                минут
+                            </Typography>
+                            <Typography variant='h4'>₽1300</Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button
+                                href='https://api.whatsapp.com/send?phone=79060725588&text='
+                                size='small'
+                                variant='contained'
+                                target='_blank'
+                            >
+                                Записаться
+                            </Button>
+                        </CardActions>
+                    </Card>
+                </Grid2>
+
                 <Grid2 className='animate-left'>
                     <Card sx={{ minWidth: 275 }}>
                         <CardContent>

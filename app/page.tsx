@@ -2,6 +2,7 @@
 
 import EducationDevelopment from '@/components/EducationDevelopment'
 import FreeMaterials from '@/components/FreeMaterials'
+import Mentor from '@/components/Mentor'
 import MyStudents from '@/components/MyStudents'
 import Prices from '@/components/Prices'
 import SpeakClub from '@/components/SpeakClub'
@@ -22,6 +23,7 @@ export default function Home() {
             <MyLessons />
             <Prices />
             <SpeakClub />
+            <Mentor />
             <Reviews />
             <FreeMaterials />
         </main>

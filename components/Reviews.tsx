@@ -15,6 +15,8 @@ import img10 from '../src/img/reviews/10.webp'
 import img11 from '../src/img/reviews/11.webp'
 import img12 from '../src/img/reviews/12.webp'
 import img13 from '../src/img/reviews/13.webp'
+import img14 from '../src/img/reviews/14.webp'
+import img15 from '../src/img/reviews/15.webp'
 import img2 from '../src/img/reviews/2.webp'
 import img3 from '../src/img/reviews/3.webp'
 import img4 from '../src/img/reviews/4.webp'
@@ -78,6 +80,14 @@ const imgNames = [
         id: 13,
         img: img13,
     },
+    {
+        id: 14,
+        img: img14,
+    },
+    {
+        id: 15,
+        img: img15,
+    },
 ]
 
 const style = {
@@ -97,7 +107,7 @@ const Reviews = () => {
 
     return (
         <Container
-            id='id8'
+            id='id9'
             maxWidth='xl'
             sx={{
                 mb: '3rem',
