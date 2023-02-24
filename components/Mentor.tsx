@@ -11,7 +11,6 @@ import {
     CardActions,
     CardContent,
     Container,
-    Link,
     Typography,
 } from '@mui/material'
 import Grid2 from '@mui/material/Unstable_Grid2'
@@ -187,38 +186,6 @@ const Mentor = () => {
                     </Card>
                 </Grid2>
             </Grid2>
-            <Box className='animate-center'>
-                <Typography
-                    variant='body1'
-                    gutterBottom
-                    sx={{
-                        textAlign: { xs: 'left', md: 'center' },
-                        fontWeight: 700,
-                    }}
-                >
-                    За подробностями о дате и времени обратитесь в директ моего
-                    блога{' '}
-                    <Link
-                        style={{ textDecoration: 'none', color: 'black' }}
-                        href={'https://www.instagram.com/zazafox/'}
-                        target='_blank'
-                    >
-                        @zazafox
-                    </Link>
-                </Typography>
-                <Typography
-                    variant='body1'
-                    gutterBottom
-                    sx={{
-                        mb: '3rem',
-                        textAlign: { xs: 'left', md: 'center' },
-                        fontWeight: 700,
-                    }}
-                >
-                    Приходи и прокачай свой английский с удовольствием на наших
-                    уютных сессиях!
-                </Typography>
-            </Box>
         </Container>
     )
 }

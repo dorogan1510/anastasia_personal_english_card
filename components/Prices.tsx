@@ -56,7 +56,7 @@ const Prices = () => {
                                 Индивидуальное занятие
                             </Typography>
                             <Typography sx={{ mb: 1.5 }} color='text.secondary'>
-                                55 минут
+                                60 минут
                             </Typography>
                             <Typography variant='h4'>₽2000</Typography>
                         </CardContent>
@@ -138,7 +138,7 @@ const Prices = () => {
                                 Групповые занятия в паре или до 4х человек 45
                                 минут
                             </Typography>
-                            <Typography variant='h4'>₽1000</Typography>
+                            <Typography variant='h4'>₽900</Typography>
                         </CardContent>
                         <CardActions>
                             <Button
@@ -163,7 +163,7 @@ const Prices = () => {
                                 Групповые занятия в паре или до 4х человек 60
                                 минут
                             </Typography>
-                            <Typography variant='h4'>₽1300</Typography>
+                            <Typography variant='h4'>₽1100</Typography>
                         </CardContent>
                         <CardActions>
                             <Button
