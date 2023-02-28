@@ -79,6 +79,7 @@ const Footer = () => {
                         gap='0.5rem'
                         justifyContent={'center'}
                         alignItems='center'
+                        sx={{ maxWidth: { xs: '280px', md: '600px' } }}
                     >
                         <InstagramIcon color='secondary' />
                         <Link
@@ -86,7 +87,10 @@ const Footer = () => {
                             className={style.link}
                             target='_blank'
                         >
-                            <Typography variant='body2'>Instagram</Typography>
+                            <Typography variant='body2'>
+                                Instagram (Организация признана экстримистской
+                                на территории РФ)
+                            </Typography>
                         </Link>
                     </Stack>
                     <Stack
